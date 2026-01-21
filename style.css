@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+header {
+    background-color: #e25fc6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.images {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.images img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #a1478d;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.table-section {
+    overflow-x: auto;
+    margin: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #e25fc6;
+    color: white;
+}
+
+tfoot {
+    background-color: #eee;
+    font-style: italic;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 150px;     /* actual thumbnail size */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #5c55e9;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
